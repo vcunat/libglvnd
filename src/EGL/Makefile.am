@@ -103,3 +103,6 @@ g_egldispatchstubs.c : $(GENERATE_DEPS)
 
 g_egldispatchstubs.h : $(GENERATE_DEPS)
 	$(VM_V_GEN)$(PYTHON) $(GENERATE_DISPATCH_SCRIPT) header $(GENERATE_LIST_FILES) > $@
+
+pkgconfigdir = $(libdir)/pkgconfig
+pkgconfig_DATA = egl.pc
