@@ -247,10 +247,15 @@ AC_CONFIG_FILES([Makefile
                  libglvnd.pc
                  include/Makefile
                  src/Makefile
+                 src/GL/gl.pc
                  src/GL/Makefile
+                 src/OpenGL/opengl.pc
                  src/OpenGL/Makefile
+                 src/GLESv1/glesv1_cm.pc
                  src/GLESv1/Makefile
+                 src/GLESv2/glesv2.pc
                  src/GLESv2/Makefile
+                 src/GLX/glx.pc
                  src/GLX/Makefile
                  src/EGL/Makefile
                  src/GLdispatch/Makefile

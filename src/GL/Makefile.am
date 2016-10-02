@@ -69,3 +69,6 @@ libGL_la_LIBADD += ../GLdispatch/libGLdispatch.la
 libGL_la_LIBADD += ../GLdispatch/vnd-glapi/libglapi_gl.la
 libGL_la_LIBADD += ../util/libutils_misc.la
 libGL_la_LIBADD += -ldl
+
+pkgconfigdir = $(libdir)/pkgconfig
+pkgconfig_DATA = gl.pc

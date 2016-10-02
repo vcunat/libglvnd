@@ -56,3 +56,5 @@ CLEANFILES = $(BUILT_SOURCES)
 g_opengl_exports.sym : $(glapi_gen_libopengl_exports_deps)
 	$(call glapi_gen_libopengl_exports, opengl)
 
+pkgconfigdir = $(libdir)/pkgconfig
+pkgconfig_DATA = opengl.pc

@@ -48,3 +48,5 @@ CLEANFILES = $(BUILT_SOURCES)
 g_glesv1_exports.sym : $(glapi_gen_libopengl_exports_deps)
 	$(call glapi_gen_libopengl_exports, glesv1)
 
+pkgconfigdir = $(libdir)/pkgconfig
+pkgconfig_DATA = glesv1_cm.pc
